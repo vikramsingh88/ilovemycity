@@ -1,0 +1,15 @@
+{
+  "name": "ilovemycityejs",
+  "version": "1.0.0",
+  "description": "This is a project developed for mobile first app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikram",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.14.1"
+  }
+}
