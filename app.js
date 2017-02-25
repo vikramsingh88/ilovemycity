@@ -32,6 +32,6 @@ app.get('/:city', city.city);
 	res.render('city',{city:city,headline:heading,title:title});
 });*/
 
-app.listen(3000, function(){
+app.listen(8080, function(){
 	console.log('Server is running');
 });
