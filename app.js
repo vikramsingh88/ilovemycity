@@ -32,6 +32,8 @@ app.get('/:city', city.city);
 	res.render('city',{city:city,headline:heading,title:title});
 });*/
 
-app.listen(8080, function(){
+var port = process.env.PORT||8080;
+
+app.listen(port, function(){
 	console.log('Server is running');
 });
